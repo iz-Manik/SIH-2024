@@ -76,7 +76,7 @@ def colorize_image(model, input_image_path, output_image_path):
     print(f"Colorized image saved to {output_image_path}")
 
 # Paths to pre-trained model weights and image
-weights_path = 'colorization_model_weights.weights.h5'
+weights_path = 'https://drive.google.com/file/d/1rS0Hhbij49zi2GldRSc14_UEXvDaB8gK/view?usp=sharing'
 input_image_path = 'flower.jpg'
 output_image_path = './dataset/colorized_output.png'
 
